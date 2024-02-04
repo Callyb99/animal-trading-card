@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* min-height: 100vh; */
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 9px;
+    
+}
+.start{
+    max-width: 500px;
+    width: 100%;
+    background-color: chocolate;
+    padding: 30px 60px 50px 60px;
+    border-radius: 15px;
+    /* box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1); */
+}
+
+.main-card{
+    padding-left: 30px;
+    margin-top: 15px;
+    color: rgb(107, 87, 72);
+    padding-top: 10px;
+}
+.card .image{
+    height: 150px;
+    width: 150px;
+}
+.image img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+border-radius: 60%;
+}
+.image{
+    padding-left: 150px;
+    /* margin-top: 50px; */
+
+}
+.dog{
+    padding-left: 202px;
+}
+.heading{
+ padding: 12px 0 25px 50px;
+ text-decoration: underline;
+ color: firebrick;
+}
+.header{
+    color: beige;
+}
+.span li {
+gap: 10px;
+list-style: none;
+font-size: 15px;
+font-style: oblique;
+}
+.last{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.space{
+    color: darkseagreen;
+}
